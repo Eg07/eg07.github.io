@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elia Al Geith | AI Engineer & Software Developer</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Elia Al Geith - AI Engineer & Software Developer specializing in Generative AI, Computer Vision, and Data Engineering solutions." />
+  <meta name="keywords" content="AI Engineer, Software Developer, Computer Vision, Generative AI, LLM, Data Engineering, Portfolio" />
+  <meta name="author" content="Elia Al Geith" />
+  
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Elia Al Geith | AI Engineer & Software Developer" />
+  <meta property="og:description" content="AI Engineer & Software Developer specializing in Generative AI, Computer Vision, and Data Engineering solutions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://elia-algeith-portfolio.com" />
+  <meta property="og:image" content="assets/images/me.jpeg" />
+  
+  <!-- Theme Color for Browser -->
+  <meta name="theme-color" content="#4a6cf7" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicons/icons8-kritisches-denken-64.png" type="image/png" />
+  <link rel="shortcut icon" href="assets/images/favicons/icons8-kritisches-denken-64.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/images/favicons/icons8-kritisches-denken-64.png" />
+  
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="assets/images/me.jpeg" as="image" />
+  <link rel="preload" href="assets/css/styles.css" as="style" />
+  <link rel="preload" href="assets/js/main.js" as="script" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style" />
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style" />
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
+</head>
+<body>
+  <!-- Skip to content link for accessibility -->
+  <a href="#hero" class="skip-to-content">Skip to content</a>
+  
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loader">
+      <div class="spinner"></div>
+      <div class="loader-content"><p>Loading Portfolio...</p></div>
+    </div>
+  </div>
+
+  <header class="header">
+    <nav class="container navbar">
+      <div class="logo"><a href="#hero">Elia Al Geith</a></div>
+      <ul class="nav-links" aria-label="Main navigation">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <!-- Dark Mode Toggle Button -->
+      <button class="dark-mode-toggle" aria-label="Toggle dark mode" role="switch" aria-checked="false">
+        <span class="visually-hidden">Toggle dark mode</span>
+      </button>
+      <button class="mobile-toggle" aria-label="Toggle menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-background">
+      <div class="animated-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+      </div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-left">
+        <div class="profile-card">
+          <div class="profile-image-container">
+            <img src="assets/images/me.jpeg" alt="Elia Al Geith" class="profile-image">
+          </div>
+          <div class="profile-details">
+            <div class="tech-icons">
+              <i class="fab fa-python" title="Python"></i>
+              <i class="fas fa-brain" title="AI/ML"></i>
+              <i class="fas fa-database" title="Data Engineering"></i>
+              <i class="fab fa-microsoft" title="Azure"></i>
+              <i class="fas fa-eye" title="Computer Vision"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <h1 class="animate-on-scroll animate-delay-1">Elia Al Geith</h1>
+        <h2 class="animate-on-scroll animate-delay-2">AI Engineer & Software Developer</h2>
+        <div class="typing-container animate-on-scroll animate-delay-2">
+          <span class="typing-text"></span><span class="cursor">|</span>
+        </div>
+        <p class="hero-description animate-on-scroll animate-delay-3">Transforming complex challenges into efficient, intelligent solutions</p>
+        <div class="hero-stats animate-on-scroll animate-delay-3">
+          <div class="stat-item">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">7</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Languages</span>
+          </div>
+        </div>
+        <div class="hero-cta animate-on-scroll animate-delay-4">
+          <a href="#contact" class="btn primary-btn">Get in Touch</a>
+          <a href="#projects" class="btn secondary-btn">View My Work</a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down-indicator">
+      <a href="#about">
+        <span class="mouse">
+          <span class="wheel"></span>
+        </span>
+        <span class="scroll-text">Scroll Down</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <!-- Background shapes for visual appeal -->
+    <div class="about-shapes">
+        <div class="about-shape-1"></div>
+        <div class="about-shape-2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section-header animate-on-scroll">
+            <h2>About Me</h2>
+            <div class="section-divider">
+                <span></span>
+                <i class="fas fa-user"></i>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="about-grid">
+            <!-- Left column: Personal info and introduction -->
+            <div class="about-text-container animate-on-scroll">
+                <div class="about-text">
+                    <div class="about-intro">Hi there! I'm Elia Al Geith</div>
+                    <p>I'm an <span class="highlight">AI Engineer & Data Scientist</span> specializing in building intelligent, scalable solutions that solve real business problems. With experience at <span class="highlight">PRODYNA SE</span>, <span class="highlight">SV SparkassenVersicherung</span>, and <span class="highlight">STIHL</span>, I turn complex challenges into efficient systems.</p>
+                    
+                    <p>My expertise spans <span class="highlight">Generative AI</span> (LLMs, RAG, Prompt Engineering), <span class="highlight">Computer Vision</span> (object detection, instance segmentation), and <span class="highlight">Data Engineering</span> pipelines. I've implemented solutions across diverse industries including chemicals, manufacturing, retail, and logistics.</p>
+                    
+                    <p>I'm driven by <span class="highlight">curiosity</span>, <span class="highlight">clean code principles</span>, and a hands-on approach to problem-solving. My background in mathematics and computer science allows me to bridge the gap between theoretical ML concepts and practical applications.</p>
+                    
+                    <div class="about-cta">
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right column: Tabs with more details -->
+            <div class="about-details-container animate-on-scroll animate-delay-1">
+                <div class="about-tabs">
+                    <button class="tab-btn active" data-target="#education">
+                        <i class="fas fa-graduation-cap"></i> Education
+                    </button>
+                    <button class="tab-btn" data-target="#experience">
+                        <i class="fas fa-briefcase"></i> Experience
+                    </button>
+                    <button class="tab-btn" data-target="#languages">
+                        <i class="fas fa-language"></i> Languages
+                    </button>
+                </div>
+
+                <div class="tab-content">
+                    <!-- Education Tab -->
+                    <div class="tab-pane active" id="education">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-icon">
+                                    <img src="assets/images/universities/Logo_Universitaet_Tuebingen.svg" alt="University of Tübingen">
+                                </div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">10/2020 - 06/2023</span>
+                                    <h3>MSc in Computer Science</h3>
+                                    <p>Eberhard Karls Universität Tübingen</p>
+                                    <p>Thesis: Quantitative Evaluation of Graph Embedding-based Surrogate Models for TinyML-Neural Architecture Search</p>
+                                    <p>Focus: Graph Neural Networks, Variational Autoencoders, Machine Learning</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-icon">
+                                    <img src="assets/images/universities/hs_esslingen_logo_de.svg" alt="Hochschule Esslingen">
+                                </div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">09/2016 - 08/2020</span>
+                                    <h3>BSc in Software Engineering</h3>
+                                    <p>Hochschule Esslingen</p>
+                                    <p>Thesis: Vision-based Docking Station Detection for Robotic Lawn Mowers</p>
+                                    <p>Focus: Computer Vision, Machine Learning, Robotics</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience Tab -->
+                    <div class="tab-pane" id="experience">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">07/2023 - Present</span>
+                                    <h3>Data Scientist & AI Engineer</h3>
+                                    <p>PRODYNA SE, Stuttgart</p>
+                                    <ul class="timeline-details">
+                                        <li>Developing AI solutions for chemistry, logistics, and manufacturing companies</li>
+                                        <li>Implementing LLM-based document analysis with Azure OpenAI</li>
+                                        <li>Training Computer Vision models for warehouse automation</li>
+                                        <li>Designing cloud architectures on Microsoft Azure</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">10/2021 - 03/2023</span>
+                                    <h3>Data Engineer</h3>
+                                    <p>SV SparkassenVersicherung Holding AG, Stuttgart</p>
+                                    <ul class="timeline-details">
+                                      <li>Modeling XML data from Informatica applications</li>
+                                      <li>Automating Hive table management with Python</li>
+                                      <li>Implementing data lineage tracking</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">03/2019 - 02/2020</span>
+                                    <h3>Data Scientist (Intern/Working Student)</h3>
+                                    <p>Andreas Stihl AG & Co. KG, Waiblingen</p>
+                                    <ul class="timeline-details">
+                                        <li>Building data pipelines for robotic mower telemetry data</li>
+                                        <li>Implementing ETL processes for real-time analytics</li>
+                                        <li>Performing correlation analyses for root cause identification</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Languages Tab -->
+                    <div class="tab-pane" id="languages">
+                        <div class="language-skills">
+                            <div class="language-item">
+                                <div class="language-info">
+                                    <h3>Arabic</h3>
+                                    <span>Native</span>
+                                </div>
+                                <div class="language-progress">
+                                    <div class="progress-bar" data-width="100"></div>
+                                </div>
+                            </div>
+                            <div class="language-item">
+                                <div class="language-info">
+                                    <h3>English</h3>
+                                    <span>Business Fluent (C1)</span>
+                                </div>
+                                <div class="language-progress">
+                                    <div class="progress-bar" data-width="95"></div>
+                                </div>
+                            </div>
+                            <div class="language-item">
+                                <div class="language-info">
+                                    <h3>German</h3>
+                                    <span>Second Language</span>
+                                </div>
+                                <div class="language-progress">
+                                    <div class="progress-bar" data-width="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects-section">
+    <div class="section-background">
+      <div class="animated-shapes projects-shapes">
+        <div class="shape projects-shape-1"></div>
+        <div class="shape projects-shape-2"></div>
+        <div class="shape projects-shape-3"></div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+      <p class="section-subtitle animate-on-scroll">Explore my recent work across different domains</p>
+      
+      <div class="projects-filter animate-on-scroll">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="ai"><i class="fas fa-brain"></i> AI/ML</button>
+        <button class="filter-btn" data-filter="data"><i class="fas fa-database"></i> Data</button>
+        <button class="filter-btn" data-filter="software"><i class="fas fa-code"></i> Software</button>
+      </div>
+      
+      <div class="projects-grid">
+        <!-- Lab Documentation text2json Project -->
+        <div class="project-card animate-on-scroll" data-category="ai">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-category"><i class="fas fa-brain"></i> AI Solution</div>
+              <h3>Lab Documentation text2json</h3>
+              <span class="project-date"><i class="far fa-calendar-alt"></i> Nov 2023 - Present</span>
+            </div>
+            <div class="project-body">
+              <p class="project-client"><i class="fas fa-building"></i> Chemical Industry</p>
+              <p class="project-description">AI solution to convert text documents into standardized JSON for a chemical research platform.</p>
+              <div class="project-achievements">
+                <h4>Key Contributions:</h4>
+                <ul>
+                  <li><i class="fas fa-check-circle"></i> Designed scalable cloud architecture</li>
+                  <li><i class="fas fa-check-circle"></i> Developed distributed agent system</li>
+                  <li><i class="fas fa-check-circle"></i> Metadata extraction for multi-sheet workbooks</li>
+                  <li><i class="fas fa-check-circle"></i> Dynamic schema detection</li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span>Azure</span><span>Azure OpenAI</span><span>LangChain</span><span>Python</span><span>JSON</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <button class="project-details-btn">Read More <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Warehouse Automation Project -->
+        <div class="project-card animate-on-scroll" data-category="ai">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-category"><i class="fas fa-eye"></i> Computer Vision</div>
+              <h3>Warehouse Box Counter</h3>
+              <span class="project-date"><i class="far fa-calendar-alt"></i> Nov 2023 - Present</span>
+            </div>
+            <div class="project-body">
+              <p class="project-client"><i class="fas fa-building"></i> Packaging Solutions Provider</p>
+              <p class="project-description">Automated warehouse box counting system using computer vision to replace inefficient manual counting methods.</p>
+              <div class="project-achievements">
+                <h4>Key Contributions:</h4>
+                <ul>
+                  <li><i class="fas fa-check-circle"></i> Trained and tested Instance Segmentation Models</li>
+                  <li><i class="fas fa-check-circle"></i> Supervised data labeling process</li>
+                  <li><i class="fas fa-check-circle"></i> Designed solution architecture</li>
+                  <li><i class="fas fa-check-circle"></i> Implemented image preprocessing pipeline</li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span>Azure AI Vision</span><span>Azure ML</span><span>Computer Vision</span><span>Python</span><span>MLOps</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <button class="project-details-btn">Read More <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Business Partner Portal Project -->
+        <div class="project-card animate-on-scroll" data-category="software">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-category"><i class="fas fa-code"></i> Software Development</div>
+              <h3>Business Partner Portal</h3>
+              <span class="project-date"><i class="far fa-calendar-alt"></i> Apr 2024 - Dec 2024</span>
+            </div>
+            <div class="project-body">
+              <p class="project-client"><i class="fas fa-building"></i> Electronics Manufacturer</p>
+              <p class="project-description">B2B Partner Portal development enabling distributors and resellers to digitally process marketing materials and sales benefits.</p>
+              <div class="project-achievements">
+                <h4>Key Contributions:</h4>
+                <ul>
+                  <li><i class="fas fa-check-circle"></i> Implemented document intelligence for product details extraction</li>
+                  <li><i class="fas fa-check-circle"></i> Developed backend using Python Flask</li>
+                  <li><i class="fas fa-check-circle"></i> Created solution architecture</li>
+                  <li><i class="fas fa-check-circle"></i> Implemented prompt engineering and fine-tuning</li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span>Azure Document Intelligence</span><span>Azure OpenAI</span><span>Flask</span><span>Docker</span><span>Python</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <button class="project-details-btn">Read More <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Smart Meters Project -->
+        <div class="project-card animate-on-scroll" data-category="data">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-category"><i class="fas fa-database"></i> Data Engineering</div>
+              <h3>Water Smart Meters Management</h3>
+              <span class="project-date"><i class="far fa-calendar-alt"></i> Sep 2023 - Oct 2023</span>
+            </div>
+            <div class="project-body">
+              <p class="project-client"><i class="fas fa-building"></i> Infrastructure Services Provider</p>
+              <p class="project-description">Data management solution for smart water meters aimed at reducing water leakage through predictive maintenance.</p>
+              <div class="project-achievements">
+                <h4>Key Contributions:</h4>
+                <ul>
+                  <li><i class="fas fa-check-circle"></i> Conducted comprehensive data analysis</li>
+                  <li><i class="fas fa-check-circle"></i> Developed data cleaning strategy</li>
+                  <li><i class="fas fa-check-circle"></i> Implemented Medallion Architecture</li>
+                  <li><i class="fas fa-check-circle"></i> Created data validation framework</li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span>Data Analysis</span><span>Data Science</span><span>Python</span><span>Medallion Architecture</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <button class="project-details-btn">Read More <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Customer Service Automation Project -->
+        <div class="project-card animate-on-scroll" data-category="ai">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-category"><i class="fas fa-robot"></i> AI Automation</div>
+              <h3>Customer Service Automation</h3>
+              <span class="project-date"><i class="far fa-calendar-alt"></i> Jan 2024 - Jul 2024</span>
+            </div>
+            <div class="project-body">
+              <p class="project-client"><i class="fas fa-building"></i> Industrial Manufacturing Company</p>
+              <p class="project-description">Email classification and invoice data extraction system to streamline customer service processes.</p>
+              <div class="project-achievements">
+                <h4>Key Contributions:</h4>
+                <ul>
+                  <li><i class="fas fa-check-circle"></i> Built ML model for email classification</li>
+                  <li><i class="fas fa-check-circle"></i> Implemented data cleaning and ETL processes</li>
+                  <li><i class="fas fa-check-circle"></i> Developed GPT-4 based entity extraction for invoices</li>
+                  <li><i class="fas fa-check-circle"></i> Created CI/CD pipelines with GitHub Actions</li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span>AI Agents</span><span>Azure ML</span><span>LLMs</span><span>OCR</span><span>Python</span><span>GitHub Actions</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <button class="project-details-btn">Read More <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Data Quality Assurance Tool Project -->
+        <div class="project-card animate-on-scroll" data-category="data">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-category"><i class="fas fa-chart-line"></i> Data Quality</div>
+              <h3>Data Quality Assurance Tool</h3>
+              <span class="project-date"><i class="far fa-calendar-alt"></i> Sep 2021 - Mar 2023</span>
+            </div>
+            <div class="project-body">
+              <p class="project-client"><i class="fas fa-building"></i> Insurance Provider</p>
+              <p class="project-description">Python-based quality assurance program for Informatica DEI applications, ensuring data integrity and enhancing data management processes.</p>
+              <div class="project-achievements">
+                <h4>Key Contributions:</h4>
+                <ul>
+                  <li><i class="fas fa-check-circle"></i> Designed data model for Informatica application content</li>
+                  <li><i class="fas fa-check-circle"></i> Developed automated Hive table management</li>
+                  <li><i class="fas fa-check-circle"></i> Implemented data lineage design and tracking</li>
+                  <li><i class="fas fa-check-circle"></i> Created XML processing pipeline</li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span>Apache Hadoop</span><span>Apache Hive</span><span>Data Engineering</span><span>Python</span><span>XML</span><span>PL/SQL</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <button class="project-details-btn">Read More <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Vision-based Docking Station Detection Project -->
+        <div class="project-card animate-on-scroll" data-category="ai">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <div class="project-category"><i class="fas fa-microchip"></i> Robotics & AI</div>
+              <h3>Vision-based Docking Station Detection</h3>
+              <span class="project-date"><i class="far fa-calendar-alt"></i> Mar 2020 - Aug 2020</span>
+            </div>
+            <div class="project-body">
+              <p class="project-client"><i class="fas fa-building"></i> Outdoor Power Equipment Manufacturer</p>
+              <p class="project-description">Computer vision system detecting and enabling automatic docking for robotic lawn mowers using cost-effective hardware solutions.</p>
+              <div class="project-achievements">
+                <h4>Key Contributions:</h4>
+                <ul>
+                  <li><i class="fas fa-check-circle"></i> Created and annotated training datasets</li>
+                  <li><i class="fas fa-check-circle"></i> Trained and evaluated MobileNetV2 model</li>
+                  <li><i class="fas fa-check-circle"></i> Implemented Pure Pursuit controller for navigation</li>
+                  <li><i class="fas fa-check-circle"></i> Developed QR code detection capabilities</li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span>Computer Vision</span><span>TensorFlow</span><span>Python</span><span>OpenCV</span><span>ROS</span><span>Machine Learning</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <button class="project-details-btn">Read More <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project Modal -->
+      <div class="project-modal">
+        <div class="modal-content">
+          <span class="modal-close">&times;</span>
+          <div class="modal-body">
+            <!-- Content will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content-centered">
+        <div class="contact-info">
+          <p>I'm open to new opportunities and collaborations. Feel free to reach out!</p>
+          <div class="contact-links">
+            <a href="mailto:elia.algeith@outlook.de" class="contact-link">
+              <i class="fas fa-envelope"></i><span>Email Me</span>
+            </a>
+            <a href="https://www.linkedin.com/in/elia-al-geith-ba3757125/" target="_blank" class="contact-link">
+              <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Elia Al Geith</h3>
+          <p>AI Engineer & Software Developer specializing in Generative AI, Computer Vision, and Data Engineering solutions.</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/elia-al-geith-ba3757125/" class="social-link" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul class="footer-link-list">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul class="footer-link-list">
+            <li><a href="mailto:elia.algeith@outlook.de">elia.algeith@outlook.de</a></li>
+            <li>Stuttgart, Germany</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Elia Al Geith. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
